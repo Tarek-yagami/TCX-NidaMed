@@ -13,10 +13,22 @@ export default {
       Blue44:'#E9FAFF',
       Blue33:'#EFFBFF',
       Gray:'#C9E2EF',
-      
       White:'#FFFFFF',
     },
-    extend: {},
+    extend: {
+      colors: {
+          '5A92B0':"#5A92B0",
+          'EEF8FD':'#EEF8FD',
+          '5F696D':'#5F696D',
+          '444B59':'#444B59',
+          '80BBDA':'#80BBDA',
+          'FFFFFF':'#FFFFFF',
+          '789ADE':'#789ADE'
+      },
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

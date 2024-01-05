@@ -6,6 +6,8 @@ import Recherche from './Components/barre_recherche'
 import Sidebar from './Components/sidebar'
 import SampleTable from './Components/Table'
 import Patients from './Pages/Patients'
+import ForgetPassword1 from './Pages/ForgetPassword1'
+import ForgetPassword2 from './Pages/ForgetPassword2'
 
 function App() {
   
