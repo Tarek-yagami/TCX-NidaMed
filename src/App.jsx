@@ -2,6 +2,10 @@ import Layout from './Components/Layout'
 import Login from './Pages/login'
 import SignIn from './Pages/SignIn'
 import {Route , Routes} from 'react-router-dom'
+import Recherche from './Components/barre_recherche'
+import Sidebar from './Components/sidebar'
+import SampleTable from './Components/Table'
+import Patients from './Pages/Patients'
 
 function App() {
   
@@ -14,8 +18,9 @@ function App() {
       <Route path='/Login' element={<Login />} />
       </Routes> */}
    
-    <div>
-      <Layout />
+    <div className=' flex flex-row gap-2 items-center'>
+      <Sidebar/>
+      <Patients/>
     </div>
     
     </>
