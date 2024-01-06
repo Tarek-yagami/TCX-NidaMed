@@ -3,7 +3,7 @@ import InputBar from '../Components/ForgetPassword-components/InputBar'
 
 export default function ForgetPassword1() {
   return (
-    <div className="min-h-screen flex justify-center bg-EEF8FD mt-0 ">
+    <div className="min-h-screen flex justify-center bg-Blue44 mt-0 ">
       <div className="h-full flex flex-col items-center w-[50%]  mb-0 mt-[6vh]">
         <img alt="logo" src={Logo} className='w-[30%] h-auto '/>
         <h1 className="text-5A92B0 text-[2.5rem] font-sans font-bold mt-[5vh] tracking-wider">Réinitialisation du<br/><span className='ml-[12%]'>mot de passe</span></h1>

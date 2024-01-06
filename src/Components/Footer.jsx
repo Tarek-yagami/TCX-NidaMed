@@ -4,7 +4,7 @@ import Facebook from "../Images/Facebook.svg"
 import Internet from "../Images/Globe.svg"
 const Footer = () => {
   return (
-    <div className=" bg-Bluee w-full h-[20%]">
+    <div className=" bg-Blue66 w-full h-[20%]">
       <div className="px-[9vw] py-[4vh] flex md:flex-row flex-col md:justify-between gap-[6vh] items-center">
       <div className="flex flex-col w-[40%] gap-[2vh]">
       <p className="font-bold">NidamMed</p>

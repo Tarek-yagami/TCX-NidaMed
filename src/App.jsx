@@ -1,31 +1,52 @@
 import Layout from './Components/Layout'
 import Login from './Pages/login'
 import SignIn from './Pages/SignIn'
-import {Route , Routes} from 'react-router-dom'
-import Recherche from './Components/barre_recherche'
-import Sidebar from './Components/sidebar'
-import SampleTable from './Components/Table'
-import Patients from './Pages/Patients'
-import ForgetPassword1 from './Pages/ForgetPassword1'
-import ForgetPassword2 from './Pages/ForgetPassword2'
+import {createBrowserRouter,RouterProvider, } from 'react-router-dom'
 
+import ForgetPassword1 from './Pages/ForgetPassword1'
+import Dashboard from './Dashboard'
+import Error from './Images/404Error.svg'
+const UserLoader = async () => {
+  const res = await fetch('http://localhost:3000/users/')
+  return res.json()
+}
+const router = createBrowserRouter(
+[
+  {
+    path: "/",
+    element: <Layout/>,
+  },
+  {
+    path: "/ForgetPassword",
+    element: <ForgetPassword1/>,
+  },
+  {
+    path: "/Login",
+    element: <Login/>,
+  },
+  {
+    path: "/SignIn",
+    element: <SignIn/>,
+  },
+  {
+    path: "/Home",
+    element: <Dashboard/>,
+  },
+  {
+    path: "*",
+    element: <img className='justify-center items-center h-full mx-[27%]' src={Error} alt="error 404" />,
+  },
+]
+);
 function App() {
   
 
   return (
-    <>
-    {/* <Routes>
-      <Route path='/' element={<Layout />}/>
-      <Route path='/SignIn' element={<SignIn/>}/>
-      <Route path='/Login' element={<Login />} />
-      </Routes> */}
-   
-    <div className=' flex flex-row gap-2 items-center'>
-      <Sidebar/>
-      <Patients/>
-    </div>
     
-    </>
+    <main>
+    <RouterProvider router={router} />
+    </main>
+    
   )
 }
 

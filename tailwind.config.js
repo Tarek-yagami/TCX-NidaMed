@@ -14,6 +14,7 @@ export default {
       Blue33:'#EFFBFF',
       Gray:'#C9E2EF',
       White:'#FFFFFF',
+      Brown: '#444B59',
     },
     extend: {
       colors: {
