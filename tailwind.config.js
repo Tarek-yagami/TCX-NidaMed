@@ -23,7 +23,12 @@ export default {
           '444B59':'#444B59',
           '80BBDA':'#80BBDA',
           'FFFFFF':'#FFFFFF',
-          '789ADE':'#789ADE'
+          '789ADE':'#789ADE',
+          '1F384C':'#1F384C',
+          '44728B':'#44728B',
+          '4EADDE':'#4EADDE',
+          '959292':'#959292',
+          'E3E3E3':'#E3E3E3'
       },
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],

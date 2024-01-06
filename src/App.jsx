@@ -4,6 +4,7 @@ import SignIn from './Pages/SignIn'
 import {Route , Routes} from 'react-router-dom'
 import ForgetPassword1 from './Pages/ForgetPassword1'
 import ForgetPassword2 from './Pages/ForgetPassword2'
+import AjouterPatient from './Pages/AjouterPatient'
 
 function App() {
   
