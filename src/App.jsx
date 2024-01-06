@@ -2,14 +2,13 @@ import Layout from './Components/Layout'
 import Login from './Pages/login'
 import SignIn from './Pages/SignIn'
 import {createBrowserRouter,RouterProvider, } from 'react-router-dom'
-
 import ForgetPassword1 from './Pages/ForgetPassword1'
+import ForgetPassword2 from './Pages/ForgetPassword2'
+import AjouterPatient from './Pages/AjouterPatient'
+
 import Dashboard from './Dashboard'
 import Error from './Images/404Error.svg'
-const UserLoader = async () => {
-  const res = await fetch('http://localhost:3000/users/')
-  return res.json()
-}
+
 const router = createBrowserRouter(
 [
   {
