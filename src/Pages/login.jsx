@@ -21,7 +21,7 @@ export default function Login() {
             <input  type="password" placeholder='Mot de passe' className='py-[2.5vh] w-[37vw] pl-[2vw] rounded-2xl text-[2rem] border  placeholder-Blue opacity-70'/>
         </div>
         <p className=' text-right text-Blue'><Link to="/ForgetPassword">Forgot password ?</Link></p>
-        <button className='py-[2.5vh] w-[37vw] px-[2vw] rounded-xl text-[2rem] text-center border bg-Blue text-White'>Se connecter</button>
+        <Link to="/Home"><button className='py-[2.5vh] w-[37vw] px-[2vw] rounded-xl text-[2rem] text-center border bg-Blue text-White'>Se connecter</button></Link>
         <p className=' text-center'>Continuer avec google</p>
         <div className='flex justify-center items-center'>
         <button className='flex py-[2vh] w-[10vw] px-[2vw] rounded-xl  justify-center items-center border '><img className=' w-[60%] h-auto' src={Google} alt="" /></button>

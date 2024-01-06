@@ -11,8 +11,8 @@ export default function Dashboard() {
         <div className='flex flex-col py-[0.5%]'>
           <PatientHeader />
           <div className="w-full border-t-2 border-1F384C opacity-20 mt-[1.5vh]"></div>
-          <p className='text-left text-[2rem] pl-[5%] font-semibold my-[2%]' style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.25)' }}>Bienvenue Dr.Username </p>
-          <div className='flex w-full h-[45vh] justify-center items-center rounded-xl bg-White mx-[5%] font-bold'>
+          <p className='text-left text-[2rem] pl-[5%] font-semibold my-[2%]' style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.25)' }}>Bienvenue Dr.Benameur </p>
+          <div className='flex  h-[45vh] justify-center items-center rounded-xl bg-White mx-[5%] font-bold'>
             <div className='flex flex-col justify-center px-[10%] py-[0.5%] text-[1rem] text-center'>
               <p className='text-[1.5rem] '>Visits for today</p>
               <p className='text-[2.5rem]'>140</p>
@@ -29,9 +29,7 @@ export default function Dashboard() {
             </div>
             <img className='justify-end ' src={Illustration} alt="" />
           </div>
-          <div className='flex w-50 h-[25vh] justify-center items-center rounded-xl bg-White mx-[5%] font-bold'>
-            <p>Patient Récents</p>
-          </div>
+          
         </div>
       </div>
     </div>
