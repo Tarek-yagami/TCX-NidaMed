@@ -1,8 +1,8 @@
-
-export default function menuList({Icon,title,active}) {
+import { Link } from 'react-router-dom';
+export default function menuList({Icon,title,path,active}) {
   return (
-    <div className="flex flex-row gap-[1vw] px-[2%] mb-[5vh]">
+    <Link to={path}><div className="flex flex-row gap-[1vw] px-[%] mb-[5vh]">
             <img src={Icon} alt="" />
-            <p>{title}</p></div>
+            <p>{title}</p></div></Link>
   )
 }

@@ -1,5 +1,6 @@
 import Logo from '../Images/NidaMedLogo.svg'
 import InputBar from '../Components/ForgetPassword-components/InputBar'
+import { Link } from 'react-router-dom'
 
 export default function ForgetPassword1() {
   return (
@@ -12,7 +13,7 @@ export default function ForgetPassword1() {
           <InputBar DataPlaceholder={"yourname@gmail.com"} DataPlaceholderSize={"1"} Data={"Addresse e-mail"} DataSize={"1"} />
         </div>
         <div className='mt-[6%] mb-[0%]'>
-          <button className='bg-5A92B0 h-[7.5vh] w-[25vw] text-FFFFFF font-sans font-semibold rounded-3xl hover:opacity-75'>Envoyer</button>
+          <Link to="/CreateNewPassword"><button className='bg-5A92B0 h-[7.5vh] w-[25vw] text-FFFFFF font-sans font-semibold rounded-3xl hover:opacity-75'>Envoyer</button></Link>
         </div>
         
       </div>

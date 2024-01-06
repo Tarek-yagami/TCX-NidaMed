@@ -5,7 +5,7 @@ export default function AboutUs() {
         <img className='w-[50%]' src={AboutUsPic} alt="imaaage" />
        <div className='flex flex-col py-[15%] gap-[1vh]'> 
       <p className=' text-[3rem] font-semibold  '>About Us</p>
-      <p className='text-[1.5rem] px-[10%]'>    on vous aide a organiser chaque patients et ses informatios son cas ses medicaments ... aussi votre rendez vous I love it! It works super smoothly and reduces the time to set up the first and rt from Figma to Webflow. However, I am excited to try it out once I have more time to explore</p>
+      <p className='text-[1.5rem] px-[10%]'>On vous aide à organiser chaque patient, ses informations, son cas, ses médicaments, et aussi vos rendez-vous. J'adore ! Cela fonctionne de manière super fluide et réduit le temps de configuration. Cependant, je suis impatient de l'essayer davantage dès que j'aurai plus de temps pour explorer.</p>
       </div>
       
     </div>

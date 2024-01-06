@@ -8,7 +8,7 @@ export default function AjouterPatient() {
       <div className='mt-[1.5vh]'>
       <Header/>
       </div>
-      <div class="w-full border-t-2 border-1F384C mt-[1.5vh]"></div>
+      <div className="w-full border-t-2 border-1F384C opacity-20 mt-[1.5vh]"></div>
       <h1 className='font-sans font-bold text-44728B text-5xl mt-[5vh]'>Ajouter un patient</h1>
       <div className='mt-[5vh]'>
       <PatientInfo/>

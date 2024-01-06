@@ -6,11 +6,11 @@ export default function Navbar() {
       <div className="flex justify-between align-center items-center flex-row text-[1.25rem]">
         <div className='flex flex-row  gap-[1vw]'>
         <img className='w-16' src={Logo} alt="" />
-        <p>Logo</p></div>
+        <p className='text-center items-center pt-1'>Nida<span className='text-Blue'>Med</span></p></div>
         <ul className="flex gap-[4vw]">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about"  smooth duration={800}>About Us</Link></li>
-          <li>Services</li>
+          
           <li>Contact</li>
         </ul>
         <div className="flex gap-[1vw]">

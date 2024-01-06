@@ -6,8 +6,10 @@ import ForgetPassword1 from './Pages/ForgetPassword1'
 import ForgetPassword2 from './Pages/ForgetPassword2'
 import AjouterPatient from './Pages/AjouterPatient'
 
-import Dashboard from './Dashboard'
+import Dashboard from './Pages/Dashboard'
 import Error from './Images/404Error.svg'
+import ProfileDoc from './Pages/Profile'
+import Patients from './Pages/Patients'
 
 const router = createBrowserRouter(
 [
@@ -20,6 +22,10 @@ const router = createBrowserRouter(
     element: <ForgetPassword1/>,
   },
   {
+    path: "/CreateNewPassword",
+    element: <ForgetPassword2/>,
+  },
+  {
     path: "/Login",
     element: <Login/>,
   },
@@ -30,6 +36,18 @@ const router = createBrowserRouter(
   {
     path: "/Home",
     element: <Dashboard/>,
+  },
+  {
+    path: "/Profile",
+    element: <ProfileDoc/>,
+  },
+  {
+    path: "/Patients",
+    element: <Patients/>,
+  },
+  {
+    path: "/AjouterPatient",
+    element: <AjouterPatient/>,
   },
   {
     path: "*",

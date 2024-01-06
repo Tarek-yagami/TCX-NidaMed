@@ -3,6 +3,7 @@ import SearchIcon from '../Images/Search.svg';
 import FilterIcon from '../Images/Filter.svg';
 import SuiviIcon from '../Images/Star.svg';
 import AddIcon from '../Images/Plus.svg';
+import { Link } from 'react-router-dom';
 const SearchBar = () => {
   const [searchText, setSearchText] = useState('');
 
@@ -28,10 +29,10 @@ const SearchBar = () => {
         <div className='flex flex-row  py-4 justify-end'>
     
       <button onClick={handleAdd} className="mx-2 cursor-pointer flex flex-col">
-        <div className='flex flex-row rounded-2xl  bg-Blue px-4 py-2 border'>
+        <Link to="/AjouterPatient"><div className='flex flex-row rounded-2xl  bg-Blue px-4 py-2 border'>
         <img src={AddIcon} alt="Suivi" className="w-6 h-6" />
         <p className='px-2 text-White'>Ajouter un patient</p>
-        </div>
+        </div></Link>
       </button>
         
     </div>
